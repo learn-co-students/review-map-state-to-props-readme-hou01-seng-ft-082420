@@ -6,7 +6,8 @@ import './App.css';
 class App extends Component {
 
   handleOnClickItems() {
-    this.props.store.dispatch({
+    // console.log(this.props)
+    this.props.dispatch({
       type: 'GET_COUNT_OF_ITEMS',
     });
   }
